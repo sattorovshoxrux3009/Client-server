@@ -1,0 +1,52 @@
+.container{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+input::placeholder{
+    color: black;
+}
+button{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(99, 255, 146);
+    color: black;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+h1,h4{
+    text-align: center;
+}
+.time-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+#full-day{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+#messages{
+    height: 450px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+p{
+    padding: 0;
+    margin: 0;
+}

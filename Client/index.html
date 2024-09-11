@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Veb Oynasi</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <h1>Client Veb Oynasi</h1>
+      <h4 id="full-day">Day Month Year</h4>
+      <div class="time-container">
+        <span id="hour">Hh</span>:<span id="minute">Mm</span>:<span id="second">Ss</span>
+      </div>
+      <input id="messageInput" autofocus placeholder="Xabarni kiriting"></input>
+      <button onclick="sendMessage()">Yuborish</button>
+      <div id="messages"></div>
+    </div>
+  </div>
+  
+  <script src="./client.js"></script>
+</body>
+</html>
